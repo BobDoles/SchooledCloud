@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SchooledCloudActivity!</string>
+    <string name="app_name">SchooledCloud</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome to SchooledCloud, please login below.</string>
+    <string name="login_welcome">Welcome to SchooledCloud home.</string>
+
+</resources>

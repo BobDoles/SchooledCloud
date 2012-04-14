@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_welcome"
+        android:textColor="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tWelcome"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ImageButton01"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ImageButton03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ImageButton02"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ImageButton03"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/ImageButton05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ImageButton04"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
